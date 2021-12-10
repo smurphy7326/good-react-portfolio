@@ -1,13 +1,13 @@
 import React from 'react';
-import Nav from '../Nav'
+import { Row } from 'react-bootstrap';
+import Navigation from '../Navigation'
 
+function Header ({ currentPage, handlePageChange }) {
 
-const Header = (props) => {
-
-    return (
-        <header>
-        <Nav handlePageChange={props.handlePageChange}/>
-        </header>
+    return(
+        <Row data-testid='header-row' id='header'>
+        <Navigation handlePageChange={handlePageChange} currentPage={currentPage}/>
+        </Row>
     )
 }
 
