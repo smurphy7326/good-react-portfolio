@@ -1,5 +1,6 @@
 import React from 'react';
 import profilePicture from '../../assets/images/profilePicture.png'
+import backgroundPicture from '../../assets/images/background.png'
 
 
 const About = () => {
@@ -7,7 +8,7 @@ const About = () => {
        <div className="container row">
            <div className="col">
                <h3 className='header'>About Me</h3>
-            <div style={{backgroundColor: 'royalblue'}} className='card-panel'>
+            <div style={{backgroundImage: {backgroundPicture}}} className='card-panel'>
             <div className='card-image center-align'>
                <div className='card-image center-align'>
                    <img src={profilePicture} alt='headshot'></img>
@@ -18,6 +19,7 @@ const About = () => {
                    <p>My name is Sean Murphy. I am a full stack developer trying to learn different and more technologies each and everyday</p>
                    <p> The different technologies that I have learned are Node.js, Express.js, HTML, REACT, Sequelize, ____</p>
                    <p> I am trying to learn difficult and different technologies to make myself a better developer to be better suited for any challenges that may arise from the real world problems.</p>
+
                </div>
            </div>
            </div>
