@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import Project from '../Project';
 
+// ask BCS was helpful with figuring this out
+
 const Portfolio = () => {
     const [projectsList, setProjectsList] = useState(projects);
     return (
