@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Project from '../Project';
+import projects from '../../projectList.json';
 
 // ask BCS was helpful with figuring this out
 
@@ -15,6 +16,7 @@ const Portfolio = () => {
                 image={project.image}
                 github={project.github}
                 deploy={project.deploy}
+                technology={project.technology}
                 description={project.description}
                 key={project.id}
                 />

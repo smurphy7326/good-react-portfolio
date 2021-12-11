@@ -3,12 +3,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 // https://materializecss.com/cards.html is where i am getting most of the things for this part. 
 // different links for the github and deployed icons, looking for the different photos in regards to the projects
-const Project = () => {
+const Project = (props) => {
     return (
         <div className='col s12 m6'>
-            <div className="">
-                <div className='card-image'>
-                    <img className='photos-img' alt={props.name} src={require(`../../assets/images/${props.image}`).default}/>
+            <div className='light-blue lighten-1'>
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img className='activator responsive-img' alt={props.name} src={require(`../../assets/images/${props.image}`).default}/>
                 </div>
                 <div className="card-content">
                 <span className="card-title activator">{props.name}<i className="material-icons right">more_vert</i></span>
