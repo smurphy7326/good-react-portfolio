@@ -1,27 +1,28 @@
 import React from 'react'; 
 
 // https://materializecss.com/cards.html is where i am getting most of the things for this part. 
+//links need to show up
 
 const Project = (props) => {
     return (
-        <div className='col s12 m4 l4'>
-        <div className="card hoverable grey darken-3">
-            <div className="card-image waves-effect waves-block waves-light">
-                <img className="activator responsive-img" alt={props.name} src={require(`../../assets/images/${props.image}`).default}/>
-            </div>
-            <div className="card-content">
-                <span className="card-title activator">{props.name}<i className="material-icons right">more_vert</i></span>
-                <p>
-                    <a href={props.github} target='_blank' rel="noreferrer"></a>
-                    <a href={props.deploy} target='_blank' rel="noreferrer"></a>
-                </p>
-            </div>
-            <div className="card-reveal">
-                <span className="card-title grey-text text-darken-3">{props.name}<i className="material-icons right">close</i></span>
-                <p className='grey-text text-darken-3'>{props.description}</p>
-            </div>
+    <div class="row">
+    <div class="col s12 m7">
+      <div class="card">
+        <div class="card-image">
+        <img className="activator responsive-img" alt={props.name} src={require(`../../assets/images/${props.image}`).default}/>
+          <span className="card-title text-color red">{props.name}</span>
         </div>
+        <div class="card-content">
+          <p>{props.description}</p>
         </div>
+        <div class="card-action">
+            <a href={props.github} target="_blank" rel="noreferrer"></a>
+            
+            <a className="deploy" href={props.deploy} target="_blank" rel="noreferrer"></a>
+        </div>
+      </div>
+    </div>
+  </div>
     )
 }
 

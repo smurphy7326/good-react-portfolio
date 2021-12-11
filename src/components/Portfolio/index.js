@@ -5,7 +5,7 @@ import projects from '../../projectList.json';
 // ask BCS was helpful with figuring this out
 
 const Portfolio = () => {
-    const [projectsList, setProjectsList] = useState(projects);
+    const [projectsList] = useState(projects);
     return (
         <div className='row'>
             <h2 className='header'>Portfolio</h2>

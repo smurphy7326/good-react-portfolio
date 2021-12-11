@@ -8,7 +8,6 @@ const {
     currentPage
 } = props;
 
-// https://react-bootstrap.github.io/components/navbar/ is where you can help find most of the information from this part.
     return (
         <Col id ="navigationBar">
             <Navbar collapseOnSelect expand='lg'>
