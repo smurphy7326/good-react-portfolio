@@ -12,13 +12,13 @@ function App() {
   const [currentPage, handlePageChange] = useState('about');
   const renderPage = () => {
     switch (currentPage) {
-      case 'Portfolio':
+      case 'portfolio':
         return <Portfolio/>;
         
-      case 'Contact':
+      case 'contact':
         return <Contact/>;
 
-      case 'Resume':
+      case 'resume':
         return <Resume/>;
         
       default: return <About/>;
