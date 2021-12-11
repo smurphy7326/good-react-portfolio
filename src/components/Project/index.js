@@ -5,24 +5,21 @@ import React from 'react';
 
 const Project = (props) => {
     return (
-    <div class="row">
     <div class="col s12 m7">
       <div class="card">
         <div class="card-image">
-        <img className="activator responsive-img" alt={props.name} src={require(`../../assets/images/${props.image}`).default}/>
-          <span className="card-title text-color red">{props.name}</span>
+        <img className="project" alt={props.name} src={require(`../../assets/images/${props.image}`).default}/>
+          <span className="card-title blue-text text-darken-2 card-panel teal lighten-2">{props.name}</span>
         </div>
         <div class="card-content">
           <p>{props.description}</p>
         </div>
         <div class="card-action">
-            <a href={props.github} target="_blank" rel="noreferrer"></a>
-            
-            <a className="deploy" href={props.deploy} target="_blank" rel="noreferrer"></a>
+            <a target="_blank" rel="noreferrer" href={props.github} i class="fab fa-github-square">Github</a>
+            <a target="_blank" rel="noreferrer" href={props.deploy} i class="fas fa-paper-plane">Deploy</a>
         </div>
       </div>
     </div>
-  </div>
     )
 }
 
