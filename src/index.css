@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#navigationBar {
+  background-color: #317FCE;
+  color: #CE8031;
+  
+}

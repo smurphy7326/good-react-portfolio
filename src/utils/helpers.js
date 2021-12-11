@@ -1,5 +1,9 @@
 // This was helpful in the module that we used this past week
 
+export function normalizePageNames(pageName){
+  return pageName.toLowerCase();
+}
+
 export function capitalizeFirstLetter(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
   }
