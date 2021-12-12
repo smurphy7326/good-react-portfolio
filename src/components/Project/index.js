@@ -9,7 +9,7 @@ const Project = (props) => {
       <div class="card">
         <div class="card-image">
         <img className="project" alt={props.name} src={require(`../../assets/images/${props.image}`).default}/>
-          <span className="card-title blue-text text-darken-2 card-panel teal lighten-2">{props.name}</span>
+          <span className="card-title white-text card-panel navy blue">{props.name}</span>
         </div>
         <div class="card-content">
           <p>{props.description}</p>
