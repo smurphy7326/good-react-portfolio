@@ -1,14 +1,13 @@
 import React from 'react';
 import profilePicture from '../../assets/images/profilePicture.png'
-import backgroundPicture from '../../assets/images/background.png'
 
 
 const About = () => {
     return (
-       <div className="container row">
+       <div className="container row center-align">
            <div className="col">
-               <h3 className='header'>About Me</h3>
-            <div style={{backgroundImage: {backgroundPicture}}} className='card-panel'>
+               <h3 className='header align-center text-color royal blue'>About Me</h3>
+            <div className='card-panel'>
             <div className='card-image center-align'>
                <div className='card-image center-align'>
                    <img src={profilePicture} alt='headshot'></img>

@@ -17,13 +17,13 @@ const Resume = () => {
                     <div className="card-content">
                         <h3 className="card-title center-align">Front-End Technologies</h3>
                         <ul class="collection">
-                        <li class="collection-item center-align card blue">HTML</li>
+                        <li class="collection-item center-align card blue lighten-1">HTML</li>
                         <li class="collection-item center-align card blue">CSS</li>
-                        <li class="collection-item center-align card blue">jQuery</li>
+                        <li class="collection-item center-align card blue lighten-1">jQuery</li>
                         <li class="collection-item center-align card blue">Bootstrap</li>
-                        <li class="collection-item center-align card blue">Materialize</li>
+                        <li class="collection-item center-align card blue lighten-1">Materialize</li>
                         <li class="collection-item center-align card blue">Handlebars.js</li>
-                        <li class="collection-item center-align card blue">React</li>
+                        <li class="collection-item center-align card blue lighten-1">React</li>
                         </ul>
                     </div>
                 </div>
@@ -33,13 +33,13 @@ const Resume = () => {
                     <div className="card blue">
                     <h3 className="card-title center-align">Back-End Technologies</h3>
                     <ul class="collection">
-                        <li class="collection-item center-align card blue">MySQL</li>
+                        <li class="collection-item center-align card blue lighten-1">MySQL</li>
                         <li class="collection-item center-align card blue">Sequelize</li>
-                        <li class="collection-item center-align card blue">MongoDB</li>
+                        <li class="collection-item center-align card blue lighten-1">MongoDB</li>
                         <li class="collection-item center-align card blue">Mongoose</li>
-                        <li class="collection-item center-align card blue">Heroku</li>
+                        <li class="collection-item center-align card blue lighten-1">Heroku</li>
                         <li class="collection-item center-align card blue">Node.js</li>
-                        <li class="collection-item center-align card blue">Express.js</li>
+                        <li class="collection-item center-align card blue lighten-1">Express.js</li>
                     </ul>
                 </div>
             </div>
