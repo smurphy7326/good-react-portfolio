@@ -1,4 +1,4 @@
-//  https://materializecss.com/text-inputs.html was invalueable with this. I have been using materialize to expand my knowledge
+//  https://materializecss.com/text-inputs.html was invaluable with this. I have been using materialize to expand my knowledge
 // React hooks also were a challenge but I think i got it 
 // along with the general just trying to make the error messages work. Den of geeks was really awesome with the literature on this
 
@@ -51,6 +51,7 @@ const Contact = () => {
               <label htmlFor="first_name">Name</label>
             </div>
           </div>
+
           <div className="row">
             <div className="input-field col s6 m4 l8">
                 <i className="material-icons prefix">contact_mail</i>
@@ -58,6 +59,7 @@ const Contact = () => {
               <label htmlFor="email">Email</label>
             </div>
           </div>
+
           <div className="row">
             <div className="input-field col s6 m4 l8">
                 <i className="material-icons prefix">message</i>
@@ -70,6 +72,7 @@ const Contact = () => {
              <p className="error-text">{errorMessage}</p>
           </div>
           )}
+          
           <div className='row'>
             <button style={{backgroundColor: 'indigo accent-2'}}className="" type="submit" name="action">Submit
             <i className="material-icons right"></i>
