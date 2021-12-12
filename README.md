@@ -6,7 +6,7 @@ This project is a portfolio using the REACT library. I first started using Boots
 
 The portfolio has four separate sections: About Me, Portfolio, Contact and Resume. They have links to their own pages when clicked on and it is only that portion that is shown on the page at the time. Allowing each of the components for the webpage to have their own page allows them to really shine. Compared to having everything on one page where you may have different styles. 
 
-[!Screenshot](./src/assets/images/frontPage.png)
+![Screenshot](./src/assets/images/frontPage.png)
 
 ## Table of Contents
  * [Usage](#usage)
