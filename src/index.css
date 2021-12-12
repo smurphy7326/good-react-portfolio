@@ -15,6 +15,12 @@ code {
     monospace;
 }
 
+.card-image {
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+
 /* this is to help with the footer so it goes to the bottom of the page */
 
 .page-footer {
