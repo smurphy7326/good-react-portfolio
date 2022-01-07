@@ -28,11 +28,11 @@
     },
     {
         "id": 4,
-        "name": "Note Taker",
-        "image": "NoteTaker.png",
-        "description": "An application that a user can make notes, save those notes and delete the notes after they complete the task.",
-        "technology": "Node.js, Express.js, HTML and CSS",
-        "github": "https://github.com/smurphy7326/note-taker",
-        "deploy": "https://aqueous-wave-98237.herokuapp.com/"
+        "name": "VacciDate",
+        "image": "Vacci-date.png",
+        "description": "An application that allows people who are vaccinated to meet on a dating app.",
+        "technology": "State, Node.js",
+        "github": "https://github.com/thereeling/vacci-date",
+        "deploy": "https://powerful-basin-63649.herokuapp.com/"
     }
 ]
